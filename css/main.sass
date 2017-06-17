@@ -1,0 +1,147 @@
+@import _variables
+
+body 
+	background-color: $c_fondo
+
+header
+	background-color: $c_Cab
+	height: 56px
+	.logo
+		float: left
+		text-align: center
+		color: $white
+		h1
+			padding-top: 3px
+	nav
+		background-color: $c_Cab
+		float: left
+	.navbar
+		background-color: $c_Cab
+		.nav-link
+			&:hover 
+				background-color: $c_hover
+
+
+.navbar-light .navbar-nav .open > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.active
+	color: $white
+	&:hover
+		color: black
+
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler
+	color: $white
+
+.btn-outline-success
+	color: $white
+	border-color: $c_boton
+
+.btn-outline-success:hover
+	background-color: $c_boton
+	border-color: $c_boton
+
+#carouselExampleControls
+	height: $altura
+	display: block
+	margin: 5px auto 5px auto
+
+
+.carousel-item
+	img 
+		height: $altura
+		display: block
+		margin: 0 auto 0 auto
+		vertical-align: middle
+
+.sec_seccion
+	background-color: $c_Cab
+	display: table
+	.cat
+		height: 300px
+		width: 288px
+		background-color: $c_cat
+		float: left
+		margin: 2em 1em
+		font-size: $tam_letra
+		color: white
+		.logo
+			text-align: center
+			margin-top: 20px
+			color: $plata
+			font-size: 35px
+			.fa 
+				padding-bottom: 10px
+				color: $c_logo
+				font-size: 100px
+		a 
+			text-decoration: none
+			text-align: center
+			font-weight: bold
+			color: $c_enlace
+			&:hover
+				color: $c_hover
+
+.list_productos
+	.item_prod
+		background-color: $c_prod
+		margin: 1em
+		height: 400px
+		width: 266px
+		color: $plata
+		border-style: solid
+		border-color: $c_Cab
+		border-radius: 5px
+		h4
+			margin-top: 10px
+			text-align: center
+		p
+			margin-left: 1em
+			font-size: 15px
+		img 
+			height: 195px
+		.btn
+			float: right
+			margin-right: 1em
+
+
+
+
+
+
+
+
+
+
+
+footer
+	height: 170px
+	background-color: $c_footer
+	div
+		margin-top: 1em
+		float: left
+		p 
+			color: black
+
+.copy
+	p 
+		margin: 10px
+
+.redsocial
+	li
+		list-style-type: none
+		a 
+			text-decoration: none
+			i 
+				font-size: 40px
+				float: left
+				margin-right: 20px
+				margin-bottom: 30px
+				color: $c_Cab
+			p 
+				font-size: 20px
+				margin-top: 3px
+				color: black
+				&:hover
+					color: $c_Cab	
+		
+				
+
+		
