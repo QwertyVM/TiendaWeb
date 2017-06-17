@@ -1,0 +1,41 @@
+
+//Header General
+header
+	background-color: $c_Cab
+	height: 56px
+	.logo
+		float: left
+		text-align: center
+		color: $white
+		h1
+			padding-top: 3px
+	nav
+		background-color: $c_Cab
+		float: left
+	.navbar
+		background-color: $c_Cab
+		.nav-link
+			&:hover 
+				background-color: $c_hover
+
+//Color Letras Primarias de Navegación
+.navbar-light .navbar-nav .open > .nav-link, .navbar-light .navbar-nav .active > .nav-link,.navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.active
+	color: $white
+	&:hover
+		color: black
+
+//Color de Letras secundarias de Navegación
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler
+	color: $white
+	&:hover
+		color: $plata
+
+//Boton de Busqueda
+.btn-outline-success
+	color: $white
+	border-color: $c_boton
+
+.btn-outline-success:hover
+	background-color: $c_boton
+	border-color: $c_boton
+
