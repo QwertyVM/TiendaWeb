@@ -9,7 +9,8 @@ header {
     text-align: center;
     color: #FFF; }
     header .logo h1 {
-      padding-top: 3px; }
+      padding-top: 5px;
+      font-size: 38px; }
   header nav {
     background-color: #051838;
     float: left; }
@@ -47,25 +48,42 @@ header {
   margin: 0 auto 0 auto;
   vertical-align: middle; }
 
+.servicios {
+  height: 400px; }
+  .servicios .serv {
+    height: 300px;
+    width: auto;
+    margin: auto;
+    background-color: #051838;
+    display: inline-block;
+    text-align: center; }
+    .servicios .serv a {
+      text-decoration: none;
+      color: #F8F8F8; }
+      .servicios .serv a i {
+        padding-top: 45px;
+        font-size: 100px; }
+      .servicios .serv a h3 {
+        font-size: 40px; }
+      .servicios .serv a:hover {
+        color: #E3AF48; }
+
 .sec_seccion {
   background-color: #051838;
-  height: 300px;
-  display: table; }
+  height: 330px; }
   .sec_seccion .cat {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    height: 250px;
+    margin: auto;
+    height: 300px;
     width: auto;
+    display: inline-block;
     background-color: #E3AF48;
-    float: left;
-    margin-right: 8px;
     font-size: 17px;
     color: white; }
     .sec_seccion .cat .logo {
       text-align: center;
       margin-top: 20px;
       color: #F8F8F8;
-      font-size: 30px; }
+      font-size: 20px; }
       .sec_seccion .cat .logo .fa {
         padding-bottom: 10px;
         color: #051838;
@@ -76,27 +94,6 @@ header {
       color: #20304C; }
       .sec_seccion .cat a:hover {
         color: #F9EDD5; }
-
-.list_productos .item_prod {
-  background-color: #051838;
-  margin: 1em;
-  height: 400px;
-  width: 266px;
-  color: #F8F8F8;
-  border-style: solid;
-  border-color: #051838;
-  border-radius: 5px; }
-  .list_productos .item_prod h4 {
-    margin-top: 10px;
-    text-align: center; }
-  .list_productos .item_prod p {
-    margin-left: 1em;
-    font-size: 15px; }
-  .list_productos .item_prod img {
-    height: 195px; }
-  .list_productos .item_prod .btn {
-    float: right;
-    margin-right: 1em; }
 
 footer {
   height: 170px;
