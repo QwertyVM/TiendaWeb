@@ -2,6 +2,7 @@ body {
   background-color: #F8F8F8; }
 
 header {
+  margin-top: 5px;
   background-color: #051838;
   height: 56px; }
   header .logo {
@@ -40,7 +41,7 @@ header {
 #carouselExampleControls {
   height: 500px;
   display: block;
-  margin: 5px auto 5px auto; }
+  margin: 7px auto 0px auto; }
 
 .carousel-item img {
   height: 500px;
@@ -49,10 +50,9 @@ header {
   vertical-align: middle; }
 
 .servicios {
-  height: 400px; }
+  height: 300px; }
   .servicios .serv {
-    height: 300px;
-    width: auto;
+    height: 163px;
     margin: auto;
     background-color: #051838;
     display: inline-block;
@@ -61,24 +61,30 @@ header {
       text-decoration: none;
       color: #F8F8F8; }
       .servicios .serv a i {
-        padding-top: 45px;
-        font-size: 100px; }
+        padding-top: 25px;
+        font-size: 80px; }
       .servicios .serv a h3 {
-        font-size: 40px; }
+        padding-top: 5px;
+        font-size: 30px; }
       .servicios .serv a:hover {
         color: #E3AF48; }
 
 .sec_seccion {
   background-color: #051838;
-  height: 330px; }
+  height: 370px;
+  border-radius: 10px; }
   .sec_seccion .cat {
-    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-right: auto;
+    margin-left: auto;
     height: 300px;
     width: auto;
     display: inline-block;
     background-color: #E3AF48;
     font-size: 17px;
-    color: white; }
+    color: white;
+    border-radius: 10px; }
     .sec_seccion .cat .logo {
       text-align: center;
       margin-top: 20px;
@@ -96,7 +102,7 @@ header {
         color: #F9EDD5; }
 
 footer {
-  height: 170px;
+  height: 150px;
   background-color: #F8F8F8; }
   footer div {
     margin-top: 1em;
@@ -115,7 +121,7 @@ footer {
       font-size: 40px;
       float: left;
       margin-right: 20px;
-      margin-bottom: 30px;
+      margin-bottom: 10px;
       color: #051838; }
     .redsocial li a p {
       font-size: 20px;
